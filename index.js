@@ -1,9 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import connectDB from './config/db.js';
+import connectDB from './src/config/db.js';
 import cors from 'cors';
-import catergoryRoute from './routes/categoryRoute.js';
-import postsRoute from './routes/postsRoute.js';
+import catergoryRoute from './src/routes/categoryRoute.js';
+import postsRoute from './src/routes/postsRoute.js';
 
 
 //env file config
